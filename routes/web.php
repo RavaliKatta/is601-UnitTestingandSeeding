@@ -21,6 +21,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/library', 'HomeController@library')->name('library');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
